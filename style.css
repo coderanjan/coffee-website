@@ -1,39 +1,80 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-
-}
-
 .promotion{
-    width:100vw;
-    height:35px;
-    background:lightgrey;
-    overflow: hidden;
-    
-    
-}
-
-#text{
-    position: absolute;
-    left: 100%;
-    white-space: nowrap;
-    animation: anjan 10s linear infinite;
-    
-}
-
-nav>section{
+    background-color: lightgrey;
+    width:1255px;
+    height:40px;
     display:flex;
-    justify-content: center;
     align-items: center;
+    
+    overflow: hidden;
+}
+
+.text{
+    animation-name: anjan;
+    animation-duration: 10s;
+
+    animation-direction: normal;
+    position: relative;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    white-space: wrap;
+    user-select: none;
 }
 
 @keyframes anjan{
+    
+    
     0%{
-        transform: translateX(0);
+         left:0px;
     }
 
     100%{
-      transform: translateX(-100%);
+        left:1255px;
     }
 }
+
+.logo {
+    margin:10px
+    /* overflow: hidden; */
+    /* position: relative; */
+
+}
+
+.logo img{
+    width:150px;
+    height:100px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+.space{
+    margin:20px;
+}
+
+
+.logo1{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space .fa-search,
+.space .fa-shopping-cart,
+.space .fa-sign-in-alt,
+.space .fa-user,
+.space .fa-bars {
+    font-size: 24px; /* Adjust size as needed */
+}
+
+
+
+
+
