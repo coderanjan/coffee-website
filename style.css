@@ -353,7 +353,7 @@
     cursor: pointer;
   }
 
-  .logo1 a{
+  .logo1 a:hover{
     border-bottom: 2px solid yellow;
   }
 
