@@ -169,15 +169,15 @@
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 10px;
-    width:100vw;
-    height:100vh;
+    /* width:100vw;
+    height:100vh; */
     
     
     
 }
 
 .container img {
-     width:99%;
+     width:100%;
     height:100%; 
     object-fit: cover;
     border-radius: 8px;
@@ -195,10 +195,10 @@
     box-sizing: border-box;
 }
 
-.bottom-text {
-     margin-top: 650px;
+/* .bottom-text {
+     margin-top: 200px;
 
-  }
+  } */
 
   .container1 {
     display: flex;
@@ -208,6 +208,106 @@
     align-items: center;
   }
 
+  .selling-container{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
+
+  .selling-container img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+  }
+
+  .selling-container h3{
+    text-align: center;
+    color:black ;
+  }
+
+  .review-heading {
+    display: flex;
+    justify-content: center;
+  }
+
+  .review{
+    /* background-color: whitesmoke; */
+    height: 600px;
+    margin:80px;
+
+    
+  }
+
+  .review >div{
+    margin:10px;
+    height: 200px;
+    width:600px;
+
+    background-color: whitesmoke;
+    color: black;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    margin-left:250px;
+    padding:10px
+  }
+
+  .checked{
+    color: orange;
+  }
+
+  .design img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+  }
+
+  .design{
+    margin-bottom: 40px;
+  }
+
+  .news-head{
+    background-color: bisque;
+    height: 200px;
+    width:50%;
+    text-align: center;
+    font-size: 2rem;
+    
+  }
+
+  .news-email{
+    background-color:bisque;
+    height: 200px;
+    width:50%;
+    text-align: center;
+  }
+
+  .email-container{
+    /* background-color: brown; */
+    margin-top: 110px;
+    display: flex;
+    height:200px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .email{
+    padding:15px;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:whitesmoke ;
+    z-index: 1;
+
+  }
+  .fa-arrow-right{
+    font-size: 35px;
+    margin-right: 2px;
+    text-align:center ;
+    /* cursor: pointer; */
+  }
 
 
 
